@@ -2,7 +2,7 @@
 ## Raycasting with SDL2 and C
 This is a raycasting demo written in c using the SDL2 library for drawing. 
 I made it for my youtube channel Eclips-Coding([link](https://www.youtube.com/channel/UC6gXOq20FwPT1_AMFX6TEyw)).
-I also made a video showing the program in running([link](PLACE HOLDER)).
+I also made a video showing the program in running([link](https://youtu.be/C2X5Knb5d9w)).
 ### Controls
 In the main demo the controls are fairly simple:
 * WASD to move arround
