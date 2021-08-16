@@ -1,4 +1,4 @@
-
+[LICENSE](https://unlicense.org)
 ## Raycasting with SDL2 and C
 This is a raycasting demo written in c using the SDL2 library for drawing. 
 I made it for my youtube channel Eclips-Coding([link](https://www.youtube.com/channel/UC6gXOq20FwPT1_AMFX6TEyw)).
