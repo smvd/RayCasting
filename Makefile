@@ -1,7 +1,7 @@
 all: RayCasting MapEditor
 	
 RayCasting:
-	gcc source.c -o RayCasting.exe -Wall -W -Werror -lSDL2main -lSDL2
+	gcc source.c -o RayCasting.exe -Wall -W -Werror -lSDL2main -lSDL2 -lm
 	./RayCasting.exe
 
 MapEditor:

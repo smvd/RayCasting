@@ -5,7 +5,7 @@
 */
 
 #include <SDL2/SDL.h>   // Library used for drawing
-#include <Math.h>
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -53,7 +53,11 @@ void DrawRays(SDL_Renderer * ren, PLAYER_STRUCT player, SDL_Point walls[MAX_WALL
 SDL_Point CreateTarget(int x, int y, int dir, int dist);
 PLAYER_STRUCT MovePlayer(PLAYER_STRUCT player);
 
+#ifdef _WIN32
 int WinMain(int argc, char ** argv)
+#else
+int main(int argc, char ** argv)
+#endif
 {
     // The program doesnt take any arguments so we cast to void to aVOID(hehe) getting unused var errors 
     (void)argc;
