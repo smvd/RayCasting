@@ -20,7 +20,11 @@
 void DrawWalls(SDL_Renderer * ren, SDL_Point walls[MAX_WALL_COUNT][2], int wallCount);
 void SendFrame(SDL_Renderer * ren);
 
+#ifdef _WIN32
 int WinMain(int argc, char ** argv)
+#else
+int main(int argc, char ** argv)
+#endif
 {
     // The program doesnt take any arguments so we cast to void to aVOID(hehe) getting unused var errors 
     (void)argc;
